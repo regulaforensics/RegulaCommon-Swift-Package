@@ -2,7 +2,7 @@
 import PackageDescription
 
 let sdkVersion = "0.1.16"
-let sdkChecksum = "663356dfec5086364c91d2bada21e743f0f26a9fe103f00f294dee2c75a55851"
+let sdkChecksum = "45cf6898b4ebd461cb817a1f834f7a8d324d4e3b9071eaf29b91b9e9764e8b94"
 
 let package = Package(
     name: "RegulaCommon",
