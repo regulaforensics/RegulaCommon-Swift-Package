@@ -1,6 +1,6 @@
 # Swift Package for RegulaCommon SDK for iOS
 
-This is an internal shared library for our SDK products.  
+This is an internal shared library for Regula SDK products.  
 **Please do not import this package directly.**
 
 ## Our products
