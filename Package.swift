@@ -6,7 +6,6 @@ let sdkChecksum = "45cf6898b4ebd461cb817a1f834f7a8d324d4e3b9071eaf29b91b9e9764e8
 
 let package = Package(
     name: "RegulaCommon",
-    platforms: [.iOS(.v9)],
     products: [
         .library(name: "RegulaCommon", targets: ["RegulaCommon"])
     ],
