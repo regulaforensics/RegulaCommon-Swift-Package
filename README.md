@@ -1,15 +1,13 @@
-# Swift Package for RegulaCommon SDK for iOS
+# Regula Common: Swift Package
 
-This is an internal shared library for Regula SDK products.  
-**Please do not import this package directly.**
+This is an internal library for Regula products.  
 
-## Our products
+**Do not import this package directly!**
 
-### Face SDK
-We’re proud to offer our [Regula Face SDK](https://mobile.regulaforensics.com/biometric-verification). It’s the perfect tool to give you the power and security that comes with biometric verification. Our SDK is highly customizable and easy to integrate.
+## Documentation
 
-To get started with Face SDK, please visit our [Quickstart](https://docs.regulaforensics.com/face-sdk/getting-started/quickstart) guide and our [Documentation](https://docs.regulaforensics.com/face-sdk/).
+For detailed documentation, click [here](https://docs.regulaforensics.com/).
 
 ## Support
 
-If you encounter any issues or have questions, please visit our [Help Center](https://support.regulaforensics.com/hc/en-us).
+If you have any technical questions, feel free to [contact us](https://support.regulaforensics.com/hc/requests/new).
