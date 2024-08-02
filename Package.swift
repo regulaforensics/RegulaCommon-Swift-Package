@@ -1,20 +1,15 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let sdkVersion = "0.1.16"
-let sdkChecksum = "663356dfec5086364c91d2bada21e743f0f26a9fe103f00f294dee2c75a55851"
-
 let package = Package(
     name: "RegulaCommon",
-    platforms: [.iOS(.v9)],
+    platforms: [.iOS(.v11)],
     products: [
-        .library(name: "RegulaCommon", targets: ["RegulaCommon"])
+        .library(
+            name: "RegulaCommon",
+            targets: ["RegulaCommon"]),
     ],
     targets: [
-        .binaryTarget(
-            name: "RegulaCommon",
-            url: "https://pods.regulaforensics.com/RegulaCommon/\(sdkVersion)/RegulaCommon-\(sdkVersion).zip",
-            checksum: sdkChecksum
-        )
+        .binaryTarget(name: "RegulaCommon", url: "https://pods.regulaforensics.com/RegulaCommon/7.1.379/RegulaCommon-7.1.379.zip", checksum: "1085a24689c471ad470b83d7d568a53d7ac1dbb5d905628c82d4513a67dd5049"),
     ]
 )
