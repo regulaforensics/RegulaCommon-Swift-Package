@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "RegulaCommon",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "RegulaCommon",
-            targets: ["RegulaCommon"]),
+            targets: ["RegulaCommonBeta"]),
     ],
     targets: [
-        .binaryTarget(name: "RegulaCommon", url: "https://pods.regulaforensics.com/RegulaCommon/7.7.1110/RegulaCommon-7.7.1110.zip", checksum: "5eea729de5552240b92dd9a0b1b100b7f45f4754317f8b8f54750dfc9dafef3b"),
+        .binaryTarget(name: "RegulaCommonBeta", url: "https://pods.regulaforensics.com/RegulaCommonBeta/7.6.1206/RegulaCommonBeta-7.6.1206.zip", checksum: "c76a03c7ab4e82666ca12d340fd37ffe978c393af8761c7e079bb98973160724"),
     ]
 )
