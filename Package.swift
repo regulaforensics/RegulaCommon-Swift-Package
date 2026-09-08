@@ -7,9 +7,9 @@ let package = Package(
     products: [
         .library(
             name: "RegulaCommon",
-            targets: ["RegulaCommonStage"]),
+            targets: ["RegulaCommonNightly"]),
     ],
     targets: [
-        .binaryTarget(name: "RegulaCommonStage", url: "https://pods.regulaforensics.com/Stage/RegulaCommonStage/9.8.2789/RegulaCommonStage-9.8.2789.zip", checksum: "8eaea73ea769c35fc0243c1bd5512da55c2f9afe5bb51f6f0d20f1e9529d7bf3"),
+        .binaryTarget(name: "RegulaCommonNightly", url: "https://pods.regulaforensics.com/Nightly/RegulaCommonNightly/9.9.2790/RegulaCommonNightly-9.9.2790.zip", checksum: "7729f3bab53bae5cc07d322b431363ae27aba0f601ce5f58d51aee46c2d62760"),
     ]
 )
