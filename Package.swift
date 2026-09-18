@@ -10,6 +10,6 @@ let package = Package(
             targets: ["RegulaCommonNightly"]),
     ],
     targets: [
-        .binaryTarget(name: "RegulaCommonNightly", url: "https://pods.regulaforensics.com/Nightly/RegulaCommonNightly/9.9.2830/RegulaCommonNightly-9.9.2830.zip", checksum: "c20dd5f8a18fdfd4641a7e00f85dfe659c0eb1805e6ec36222a4b47f8c201e02"),
+        .binaryTarget(name: "RegulaCommonNightly", url: "https://pods.regulaforensics.com/Nightly/RegulaCommonNightly/9.9.2832/RegulaCommonNightly-9.9.2832.zip", checksum: "8bbcf63fa4b4bb7087009bd2cd9711cfde4f1e39baa865ed49e125259ecd67e7"),
     ]
 )
