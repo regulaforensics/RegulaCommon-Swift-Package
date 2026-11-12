@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RegulaCommonStage",
-            url: "https://pods.regulaforensics.com/Stage/RegulaCommonStage/9.10.3027/RegulaCommonStage-9.10.3027.zip",
-            checksum: "088207dc2fc4493b16049b13e2a4987b5bc00c3edc3a5f711855de16912ece27"),
+            url: "https://pods.regulaforensics.com/Stage/RegulaCommonStage/9.9.3028/RegulaCommonStage-9.9.3028.zip",
+            checksum: "e599106a26f694ff16a14cad22e6af0a9703fedfc112cd4badda7073e1ed40a9"),
     ]
 )
