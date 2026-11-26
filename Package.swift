@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "RegulaCommon",
-            targets: ["RegulaCommonNightly"]),
+            targets: ["RegulaCommonStage"]),
     ],
     targets: [
         .binaryTarget(
-            name: "RegulaCommonNightly",
-            url: "https://pods.regulaforensics.com/Nightly/RegulaCommonNightly/9.11.3072/RegulaCommonNightly-9.11.3072.zip",
-            checksum: "b60cf3a153afdd650919ac561efc8e671949fe9bc516396d9d60f60a78c76368"),
+            name: "RegulaCommonStage",
+            url: "https://pods.regulaforensics.com/Stage/RegulaCommonStage/9.11.3073/RegulaCommonStage-9.11.3073.zip",
+            checksum: "602e3f18a579794fac15baf6ad18c12e8f1e303c9d606c64be1a4abeb480f251"),
     ]
 )
